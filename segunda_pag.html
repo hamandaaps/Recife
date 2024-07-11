@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos do Recife Antigo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Para esticar o conteúdo até o rodapé */
+        }
+        header {
+            background-color: #6600ff;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #6600ff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #6600ff;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0; /* Padding reduzido */
+            flex-shrink: 0; /* Evita que o footer diminua o conteúdo */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            flex: 1; /* Para ocupar o espaço restante */
+        }
+        .main {
+            margin-bottom: 20px;
+        }
+        .point {
+            margin-bottom: 40px;
+        }
+        .point h2 {
+            color: #6600ff;
+        }
+        .point p {
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center; /* alinha as imagens ao centro */
+        }
+        .image-container img {
+            max-width: 100%; /* define a largura máxima das imagens */
+            height: auto;
+            margin: 20px 0; /* espaço entre as imagens */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pontos Turísticos do Recife Antigo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="main">
+            <div class="point">
+                <h2>Paço do Frevo</h2>
+                <div class="image-container">
+                    <img src="frevo.jpeg" alt="Paço do Frevo">
+                </div>
+                <p>O Paço do Frevo é um espaço cultural localizado no Recife Antigo, dedicado à preservação e divulgação do frevo, uma das expressões culturais mais importantes de Pernambuco. O local oferece exposições, apresentações artísticas e cursos relacionados ao frevo.</p>
+            </div>
+            <div class="point">
+                <h2>Cais do Sertão</h2>
+                <div class="image-container">
+                    <img src="cais.jpeg" alt="Cais do Sertão">
+                </div>
+                <p>O Cais do Sertão é um museu interativo que retrata a cultura e a história do sertão nordestino, com foco na vida e na obra de Luiz Gonzaga, o Rei do Baião. O museu apresenta exposições permanentes e temporárias, além de oferecer atividades educativas e culturais.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pontos Turísticos do Recife Antigo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
